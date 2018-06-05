@@ -1,6 +1,8 @@
 # kitchenAssistant
 厨房小副手：一款关于菜谱的小程序
 
+## 当前版本：version1.0
+
 ## 小程序二维码
 ![](QRcode.png)
 
