@@ -1,0 +1,26 @@
+<!--pages/about/about.wxml-->
+<view class='about'>
+  <view class="logo">
+    <image src='{{logo.img}}'></image>
+    <text class='logo_title'>
+      唯有美食与爱不可辜负，厨房小副手助你创造美食，制造浪漫。
+    </text>
+  </view>
+  <view class='us'>
+    <view class='title'>关于我们</view>
+    <view class='description'>
+      "厨房小副手"小程序，主要提供日常菜谱信息，其中包括菜谱分类，菜式的详细制作过程等。
+    </view>
+  </view>
+  <view class='contract'>
+    <view class='title'>联系我们</view>
+    <view class='description'>
+      <view>QQ技术交流群：284461829</view>
+    </view>
+  </view>
+  <view class='author'>
+    <view class='title'>关于作者</view>
+    <view class='description'>QQ邮箱：1021048274@qq.com</view>
+    <view class='description'>备注：如果您有任何建议，欢迎通过邮箱向我提出，或者直接联系我。感谢您的支持。</view>
+  </view>
+</view>

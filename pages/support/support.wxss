@@ -1,0 +1,17 @@
+/* pages/support/support.wxss */
+.support{
+  padding:40rpx;
+}
+.support image{
+  width: 320px;
+  height: 320px;
+}
+.description{
+  font-size: 12px;
+  text-indent: 16px;
+  line-height: 48rpx;
+  padding-top:16rpx;
+}
+.img{
+  text-align: center
+}

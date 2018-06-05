@@ -1,0 +1,74 @@
+page{
+  background-color: #f6f7f8;
+}
+.bg{
+  background-color: #fff;
+}
+.bg .bg_img{
+  height: 480rpx;
+  background-color: #000;
+  text-align: center
+}
+.bg_img image{
+  height: 320rpx;
+  margin: 80rpx auto;
+}
+.bg .bg_detail{
+  padding: 30rpx 40rpx;
+}
+.bg_detail .bg_title{
+  font-size: 16px;
+  color:#000;
+  padding:20rpx 0;
+}
+.bg_list .bg_ingredients,
+.bg_detail .bg_burden{
+  font-size: 14px;
+  color:#999;
+  padding:10rpx 0; 
+}
+.intr,.step{
+  margin-top: 40rpx;
+  padding: 30rpx 40rpx;
+  background-color: #fff;
+}
+.intr .intr_title,.step .step_title{
+  font-size: 16px;
+  color:#333;
+  padding:8rpx 0;
+}
+.intr .intr_detail{
+  font-size: 14px;
+  color:#999;
+  padding: 6rpx 0;
+  text-indent: 40rpx;
+  line-height: 1.6;
+}
+.intr .intr_usage{
+  font-size: 12px;
+  color:#59c457;
+  padding:40rpx 0 6rpx;
+  line-height: 1.6
+}
+.step .step_detail{
+  font-size: 14px;
+  color:#999;
+  margin: 20rpx 0;
+}
+.step .step_intr{
+  padding:10rpx 0;
+}
+.step .step_img{
+  margin: 0 auto;
+}
+.error{
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  z-index: 1000;
+  padding-top: 30%;
+  text-align: center;
+  background-color: #fff;
+}

@@ -1,0 +1,16 @@
+/* pages/list/list.wxss */
+@import "../template/template.wxss";
+
+page{
+  background-color: #f6f7f8;
+}
+.cart_wrap{
+  margin:20rpx 0;
+  padding: 20rpx;
+}
+.loading{
+  margin: 20rpx auto;
+  text-align: center;
+  font-size: 12px;
+  color:#999;
+}

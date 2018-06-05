@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+<view class="me">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{defaultImg}}" background-size="cover"></image>
+    <button wx:if="{{!noLogin}}" size='mini' bindgetuserinfo='getUserInfo' open-type='getUserInfo'>登录</button>
+    <text class="userinfo-nickname" wx:else>{{userInfo.nickName}}</text>
+  </view>
+  <view class="list">
+    <navigator wx:for="{{lists}}" wx:key="{{index}}" url="{{item.path}}" class="me_list">
+      <image src="{{item.img}}"></image>
+      <text>{{item.name}}</text>
+    </navigator>
+  </view>
+</view>

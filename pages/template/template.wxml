@@ -1,0 +1,15 @@
+<!--pages/template/template.wxml-->
+<template name="cartList">
+  <navigator class="cart" url="../detail/detail?id={{item.id}}">
+    <view class="cart_img">
+      <image src="{{item.albums}}" lazy-load='true'></image>
+      <view class="cart_title">{{item.title}}</view>
+    </view>
+    <view class="cart_detail">
+      <view class="cart_ingredients">食材</view>
+      <view class="cart_text">{{item.ingredients}}</view>
+      <view class="cart_burden">配料</view>
+      <text class="cart_text">{{item.burden}}</text>
+    </view>
+  </navigator>
+</template>

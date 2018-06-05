@@ -1,0 +1,31 @@
+<view class="detail">
+  <view class="bg">
+    <view class="bg_img">
+      <image src="{{list.albums}}"></image>
+    </view>
+    <view class="bg_detail">
+      <view class="bg_title">{{list.title}}</view>
+      <view class="bg_list">
+        <view class="bg_ingredients">食材：{{list.ingredients}}</view>
+        <view class="bg_burden">配料：{{list.burden}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="intr">
+    <view class="intr_title">简介</view>
+    <view class="intr_detail">{{list.imtro}}</view>
+    <view class="intr_usage">功效及分类：{{list.tags}}</view>
+  </view>
+  <view class="step">
+    <view class="step_title">步骤</view>
+    <view class="step_detail" wx:for="{{list.steps}}" wx:key="{{index}}">
+      <view class="step_intr">{{item.step}}</view>
+      <view class="step_img">
+        <image src="{{item.img}}"></image>
+      </view>
+    </view>
+  </view>
+  <view class="error" wx:if="{{apiErr}}">
+    <text>欠费啦~~~，赞助点呗</text>
+  </view>
+</view>

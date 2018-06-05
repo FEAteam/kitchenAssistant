@@ -1,0 +1,43 @@
+/* pages/template/template.wxss */
+.cart{
+  width: 100%;
+  margin:0 auto 30rpx;
+  border-radius: 3px;
+  box-shadow: 0 1px 20px 0px rgba(0,0,0,0.15);
+}
+.cart .cart_img{
+  width: 100%;
+  height: 320rpx;
+  position: relative;
+  overflow: hidden
+}
+.cart_img image{
+  width: 100%;
+  height: 100%;
+}
+.cart_img .cart_title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 560rpx;
+  padding:6rpx 10rpx;
+  color:#eee;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.cart_detail{
+  padding-bottom: 20rpx;
+}
+.cart_detail .cart_ingredients,
+.cart_detail .cart_burden{
+  padding:6rpx 10rpx 0;
+  color:#333;
+  font-size: 14px;
+}
+.cart_detail .cart_text{
+  padding: 2rpx 30rpx;
+  color:#999;
+  font-size: 12px;
+}

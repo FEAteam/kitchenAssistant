@@ -1,0 +1,14 @@
+<!--pages/list/list.wxml-->
+<import src="../template/template.wxml" />
+
+<view class='list'>
+  <view class="cart_wrap">
+    <template  wx:for="{{list}}" wx:key="{{index}}" is="cartList" data="{{item}}"></template>
+  </view>
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载更多</text>
+  </view>
+  <view wx:if="{{noMsg || apiErr}}" class="loading">
+    <text>~~~没有数据啦~~~</text>
+  </view>
+</view>

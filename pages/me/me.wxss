@@ -1,0 +1,49 @@
+page{
+  background-color: #f6f7f8;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 36rpx 0;
+  margin-bottom:30rpx;
+  border-bottom: 1px solid #e7e7eb;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border:1px solid #e7e7eb;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.me_list image{
+  width: 56rpx;
+  height: 56rpx;
+  vertical-align: middle;
+  padding-right:16rpx;
+}
+navigator {
+  padding: 30rpx 16rpx;
+  border-bottom: 1px solid #e7e7eb;
+  font-size: 14px;
+  color:#999;
+  position: relative;
+  background-color: #fff;
+}
+navigator::after{
+  content:'>';
+  position: absolute;
+  right: 16rpx;
+  top:34rpx;
+}
+button{
+  background-color:#59c457;
+  color:#fff;
+}

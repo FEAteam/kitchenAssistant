@@ -1,0 +1,13 @@
+<!--pages/support/support.wxml-->
+<view class='support'>
+  <view class='description'>
+      作为小小的前端工程师，如果您不是IT界的一员，不理解前端工程师是啥的话，那我就是你们口中说的苦逼的程序员啦。
+  </view>
+  <view class='description'>
+      现就职于广州某互联网公司，尽管本人作为一名程序员，但是还是离不开一日三餐的，所以平时也会自己煮个菜啥的，时间久了就会烦恼今天煮啥明天吃啥，于是就开始了这个小程序的制作，在希望能解决自己的煮啥菜，也希望帮助想自己动手做菜的您解决吃的烦恼。
+  </view>
+  <view class='description'>如果您觉得帮助到您的话，给我小小的支持吧~~~</view>
+  <view class='img'>
+    <image src="../../asset/images/support.jpg" bindtap='previewImage'></image>
+  </view>
+</view>

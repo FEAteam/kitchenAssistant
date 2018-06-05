@@ -1,0 +1,40 @@
+/* pages/about/about.wxss */
+page{
+  color:#999;
+  font-size: 15px;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 36rpx 0;
+  margin-bottom:30rpx;
+}
+.logo image{
+  width: 300rpx;
+  height: 135rpx;
+  margin-top: 20rpx;
+}
+.logo .logo_title{
+  font-size: 15px;
+  line-height: 50rpx;
+  color: #59c457;
+  padding:0 40rpx;
+  text-align: center;
+}
+.us,.contract,.author{
+  margin-top:20rpx;
+  padding:10rpx 40rpx;
+}
+.title{
+  font-size: 16px;
+  font-weight: bold;
+  color:#333;
+  padding-bottom: 10rpx;
+}
+.description{
+  font-size: 12px;
+  text-indent: 16px;
+  line-height: 48rpx;
+}
